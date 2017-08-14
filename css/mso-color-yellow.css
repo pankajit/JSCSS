@@ -1,0 +1,149 @@
+.header {background: #f7971e none repeat scroll 0 0;}
+.header .quick-access .links li a, .top-cart #cartHeader a{border: 1px solid #f7971e !important}
+.page-title h1, .page-title h2{color:#f7971e;}
+.ouphead1{color: #f7971e !important;}
+.btnAdd {background: #f7971e none repeat scroll 0 0;}
+.section h3 {color: #f7971e;}
+h3 {color: #f7971e;}
+.po-instructions label{color: #f7971e;}
+.purchase-table-block-head{color: #f7971e;}
+.custcheckout-customcheckout-confirm .order-no{color: #f7971e;}
+.axalta-products {color: #f7971e;}
+.statusBtnBlue, .blueBox{background-color: #f7971e;}
+.header .chosen-container .chosen-drop {border: 1px solid #f7971e;}
+.axl_nav li.active {background: #f7971e !important;}
+.order-2 a {color: #f7971e !important;}
+.order-2 a:hover {color: #f7971e !important;}
+tr.error input {border: 2px solid #f7971e;}
+tr.error td {color: #f7971e !important;}
+.action-links > a {background: #f7971e none repeat scroll 0 0;}
+.error td:nth-child(3) input {color: #f7971e;}
+a.upload-active {background: #f7971e;}
+.mini-cart-table-head {color: #f7971e !important;}
+h3.cat-head {color: #f7971e;}
+.cart-head{color: #f7971e;}
+a.minicart-update-cart, a.minicart-empty-cart, a.minicart-continue-shop-btn, a.minicart-checkout-cart-btn, a.minicart-saveorder {background-color: #f7971e;}
+button.jqTransformButton span span {background-color: #f7971e !important;}
+.chosen-container-active.chosen-with-drop.select_small .chosen-single{background-color: #f7971e;}
+.arrow_collapse1, .arrow_collapse, .arrow_expand, .arrow_expand_full, .arrow_collapse_full{-webkit-filter: hue-rotate(33deg); filter: hue-rotate(33deg); -moz-filter: hue-rotate(33deg);}
+button.DTTT_button, div.DTTT_button, a.DTTT_button{background:#f7971e !important;}
+.dataTables_wrapper .dataTables_paginate .paginate_button.current, .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover{background:#f7971e !important;}
+.ouphead, .purchase_product_total, .ouphead2{color: #f7971e !important;}
+.numberCircle, .popup-head, .continue-shop{background: #f7971e !important; }
+.required.ouphead2.medium-text{color: #f7971e;}
+.inlineContainer button.jqTransformButton span span{border: none !important;}
+.pricecheck button.jqTransformButton span span{background-color: #f7971e !important;}
+.purchase_btnset .checkout-btn span span {
+    background-color: #f7971e !important;
+}
+.oupheadsmallasm {
+    color: #f7971e !important;
+    font-family: Neosanspro-Medium !important;
+}
+/**bug id 479**/
+.menuplaceholder{
+	border: 1px solid #f7971e !important;
+}
+.menuplaceholder a{
+	color:#f7971e !important;
+}
+.menuplaceholder a:hover{
+	color:#f7971e !important;
+}
+.budgetlink{
+	color:#f7971e !important;
+}
+.c100.circleborderc .bar, .c100.circleborderc .fill {
+  border-color: #f7971e !important;
+}
+/*** keyboard user experience Bug id:515 Date:04-May-2016 *****/
+/**genral confirmation popup**/
+#cancel_formdata:focus span span{
+    background-color: #f7971e !important;
+}
+#save_form_data:focus span span{
+    background-color: #f7971e !important;
+}
+/**save order popup mini-shopping cart**/
+#submit_save_order_mini:focus span span{
+    background-color: #f7971e !important;
+}
+#submit_save_order_mini span span.bfocuscls{
+	background-color: #f7971e !important;
+}
+#cancel_save_order-mini:focus span span{
+    background-color: #f7971e !important;
+}
+#cancel_save_order-mini span span.bfocuscls{ 
+	background-color: #f7971e !important;
+}
+/**save order popup Order review**/
+#submit_save_order3:focus span span{
+    background-color: #f7971e !important;
+}
+#submit_save_order3 span span.bfocuscls{
+	background-color: #f7971e !important;
+}
+#cancel_save_order-mini3:focus span span{
+    background-color: #f7971e !important;
+}
+#cancel_save_order-mini3 span span.bfocuscls{ 
+	background-color: #f7971e !important;
+}
+/**Order confirmation save order popup**/
+#submit_save_order_location:focus span span{
+    background-color: #f7971e !important;
+}
+#submit_save_order_location span span.bfocuscls{
+	background-color: #f7971e !important;
+}
+#cancel_save_order_location:focus span span{
+    background-color: #f7971e !important;
+}
+#cancel_save_order_location span span.bfocuscls{ 
+	background-color: #f7971e !important;
+}
+/**Error budget page**/
+#close_commonmsg:focus span span{
+    background-color: #f7971e !important;
+}
+/***catalog name save popup***/
+#save_form_data_cname:focus span span{
+    background-color: #f7971e !important;
+}
+#save_form_data_cname span span.bfocuscls{
+	background-color: #f7971e !important;
+}
+#cancel_formdata_cname:focus span span{
+    background-color: #f7971e !important;
+}
+#cancel_formdata_cname span span.bfocuscls{ 
+	background-color: #f7971e !important;
+}
+/***catalog name edit popup***/
+#save_form_data_cname_edit:focus span span{
+    background-color: #f7971e !important;
+}
+#save_form_data_cname_edit span span.bfocuscls{
+	background-color: #f7971e !important;
+}
+#cancel_formdata_cname_edit:focus span span{
+    background-color: #f7971e !important;
+}
+#cancel_formdata_cname_edit span span.bfocuscls{ 
+	background-color: #f7971e !important;
+}
+/***catalog name copy popup***/
+#save_form_data_cname_copy:focus span span{
+    background-color: #f7971e !important;
+}
+#save_form_data_cname_copy span span.bfocuscls{
+	background-color: #f7971e !important;
+}
+#cancel_formdata_cname_copy:focus span span{
+    background-color: #f7971e !important;
+}
+#cancel_formdata_cname_copy span span.bfocuscls{ 
+	background-color: #f7971e !important;
+}
+/***END Bug Id:515*****/

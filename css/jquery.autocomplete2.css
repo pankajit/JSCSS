@@ -1,0 +1,64 @@
+.ui-autocomplete {
+	padding: 0px;
+	border: 2px solid #999;
+	border-top: 0px;
+	background-color: white;
+	z-index: 99;
+	border-radius: 8px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	height: 200px; overflow-y: scroll; overflow-x: hidden;
+
+}
+
+.ui-autocomplete ul {
+	list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.ui-autocomplete li {
+	cursor: default;
+    display: block;
+    font-family: neosanspro-Regular;
+    font-size: 13px;
+    line-height: 27px;
+    margin: 0;
+    overflow: hidden;
+    padding: 2px 5px;
+}
+.ui-autocomplete li  a{
+	color:#454545;
+}
+.ui-autocomplete li  a:hover{
+	color: white;
+}
+
+
+
+.ui-state-focus{
+	background-image: none;
+	background-color: #1775a5;
+	color: white !important;
+	border: 0 !important;
+margin:0 !important;    
+}
+.ui-state-focus  a{
+	color: white !important;
+}
+.ui-state-focus a:hover{
+	color: white;
+}
+
+.ac_loading {
+	background: white url('indicator.gif') right center no-repeat;
+}
+
+.ac_odd {
+	background-color: #fff;
+}
+.ac_over {
+	background-color: #1775a5;
+	color: white;
+}

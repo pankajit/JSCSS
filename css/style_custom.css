@@ -1,0 +1,59 @@
+.ouphead{
+ color: #d71b2a;
+    font-size: 18px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    text-align: left;
+	border-bottom: 1px solid #5c5d60;
+}
+
+.ouphead1{
+ color: #d71b2a;
+    font-size: 18px;
+    padding-bottom: 9px;
+    text-align: left;
+	
+}
+.padtop{
+    padding-top: 10px;
+}
+.lf{
+ font-size: 13px;
+}
+
+.numberCircle {
+     background: none repeat scroll 0 0 #d71b2a;
+    border-radius: 50%;
+    color: #ffffff;
+    font: bold 12px Arial,sans-serif;
+    padding: 2px 5px;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+.pagingcustom{
+width:100%;
+clear:both;
+}
+.dataTables_infonew{
+float:left;
+width:50%;
+}
+.dataTables_infonew{
+float:left;
+width:50%;
+ text-align: left;
+}
+.paging_simple_numbersnew{
+float:right;
+width:50%;
+ text-align: right;
+}
+.paging_simple_numbersnew span{
+padding:0 5px 0px 5px;
+}
+.paging_simple_numbersnew span a{
+padding:0 3px 0px 3px;
+}
+
+

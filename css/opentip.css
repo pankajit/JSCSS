@@ -1,0 +1,177 @@
+/**
+ ** http://www.opentip.org
+ ** See opentip.js for the license.
+ **/
+.opentipContainer {
+	position: absolute;
+	max-width: 210px;
+	z-index: 100;
+}
+
+.opentip {
+	position: relative;
+	font-size: 13px;
+	line-height: 120%;
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.opentip .title {
+	font-weight: bold;
+}
+
+.opentip .content {
+	width: auto !important;
+}
+
+.opentip .content span {
+	display: block
+}
+
+.opentip .loadingIndication {
+	display: none;
+	padding: 10px 15px;
+	background: url("../images/loading.gif") center center no-repeat;
+	width: 25px;
+	height: 15px;
+}
+
+.opentip .loadingIndication span {
+	display: none;
+}
+
+.loading .opentip .loadingIndication {
+	display: block;
+}
+
+.loading .opentip .content {
+	display: none;
+}
+
+.opentipButtons {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.opentipButtons .close {
+	display: block;
+	text-decoration: none;
+	width: 15px;
+	height: 15px;
+	background: url("images/button.close.small.ffffff.png") center center no-repeat;
+}
+
+.opentipButtons .close span {
+	display: none;
+}
+
+.opentipContainer .stemContainer {
+	position: absolute;
+	width: 0;
+	height: 0;
+}
+
+.opentipContainer .stem {
+	position: absolute;
+	overflow: hidden;
+}
+
+.opentipContainer .stem div {
+	background: no-repeat url("images/stems.cccccc.png");
+	position: absolute;
+	width: 320px;
+	height: 160px;
+}
+
+.opentipContainer .left {
+	left: 0;
+}
+
+.opentipContainer .center {
+	left: 50%;
+}
+
+.opentipContainer .right {
+	right: 0;
+}
+
+.opentipContainer .top {
+	top: 0;
+}
+
+.opentipContainer .middle {
+	top: 50%;
+}
+
+.opentipContainer .bottom {
+	bottom: 0;
+}
+
+/**  Styles  **/
+.style-standard .opentip {
+	border: 1px solid #ffee9b;
+	background-color: #fff6cc;
+	color: black;
+	padding: 6px 10px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.style-standard .opentip .title {
+	margin-bottom: 1px;
+}
+
+.style-standard .stem div {
+	background-image: url("../images/stemsTooltip.png");
+}
+
+.style-standard .opentipButtons {
+	top: -9px;
+	right: -10px;
+}
+
+.style-standard .opentipButtons .close {
+	background-color: rgba(0, 0, 0, 0.2);
+	width: 21px;
+	height: 21px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+/** IE 6 HACKS **/
+/*\*/
+.opentipButtons {
+	z-index: 110;
+}
+
+.opentip {
+	z-index: 110;
+}
+
+.opentipIFrame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	border: none;
+	background: none;
+	margin: 0;
+	padding: 0;
+	display: none;
+	/*sorry for IE5*/
+	display /**/: block; /*sorry for IE5*/
+	z-index: -1; /*must have*/
+	filter: mask(); /*must have*/
+}
+
+.opentipContainer .stem div {
+	behavior: expression(( this.runtimeStyle.behavior = "none")&&(this.pngSet?this.pngSet=true:(this.nodeName==  "IMG"&&  this.src.toLowerCase().indexOf('.png')>-1?(this.runtimeStyle.backgroundImage=  "none",
+		this.runtimeStyle.filter=  "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+  this.src+  "', sizingMethod='image')", this.src=  "transparent.gif" ):(this.origBg=  this.origBg?  this.origBg:this.currentStyle.backgroundImage.toString().replace('url("', '').replace('")', ''),
+		this.runtimeStyle.filter=  "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='"+  this.origBg+  "', sizingMethod='crop')", this.runtimeStyle.backgroundImage=  "none" ) ), this.pngSet=true ) );
+}
+
+.style-glass .opentip {
+	border: 1px solid #bbbbbb;
+}
+/**/
